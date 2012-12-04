@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEC9BAB166EAD8100A4A2CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BAA166EAD8100A4A2CC /* UIKit.framework */; };
+		ADEC9BAD166EAD8100A4A2CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BAC166EAD8100A4A2CC /* Foundation.framework */; };
+		ADEC9BAF166EAD8100A4A2CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BAE166EAD8100A4A2CC /* CoreGraphics.framework */; };
+		ADEC9BB5166EAD8100A4A2CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BB3166EAD8100A4A2CC /* InfoPlist.strings */; };
+		ADEC9BB7166EAD8100A4A2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC9BB6166EAD8100A4A2CC /* main.m */; };
+		ADEC9BBB166EAD8100A4A2CC /* TXXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC9BBA166EAD8100A4A2CC /* TXXAppDelegate.m */; };
+		ADEC9BBD166EAD8100A4A2CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BBC166EAD8100A4A2CC /* Default.png */; };
+		ADEC9BBF166EAD8100A4A2CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BBE166EAD8100A4A2CC /* Default@2x.png */; };
+		ADEC9BC1166EAD8100A4A2CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BC0166EAD8100A4A2CC /* Default-568h@2x.png */; };
+		ADEC9BC4166EAD8100A4A2CC /* TXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC9BC3166EAD8100A4A2CC /* TXXViewController.m */; };
+		ADEC9BC7166EAD8100A4A2CC /* TXXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BC5166EAD8100A4A2CC /* TXXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADEC9BA6166EAD8100A4A2CC /* iOSMp3Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMp3Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEC9BAA166EAD8100A4A2CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADEC9BAC166EAD8100A4A2CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADEC9BAE166EAD8100A4A2CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADEC9BB2166EAD8100A4A2CC /* iOSMp3Recorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSMp3Recorder-Info.plist"; sourceTree = "<group>"; };
+		ADEC9BB4166EAD8100A4A2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADEC9BB6166EAD8100A4A2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADEC9BB8166EAD8100A4A2CC /* iOSMp3Recorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSMp3Recorder-Prefix.pch"; sourceTree = "<group>"; };
+		ADEC9BB9166EAD8100A4A2CC /* TXXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXAppDelegate.h; sourceTree = "<group>"; };
+		ADEC9BBA166EAD8100A4A2CC /* TXXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXAppDelegate.m; sourceTree = "<group>"; };
+		ADEC9BBC166EAD8100A4A2CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ADEC9BBE166EAD8100A4A2CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ADEC9BC0166EAD8100A4A2CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADEC9BC2166EAD8100A4A2CC /* TXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXViewController.h; sourceTree = "<group>"; };
+		ADEC9BC3166EAD8100A4A2CC /* TXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXViewController.m; sourceTree = "<group>"; };
+		ADEC9BC6166EAD8100A4A2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEC9BA3166EAD8100A4A2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEC9BAB166EAD8100A4A2CC /* UIKit.framework in Frameworks */,
+				ADEC9BAD166EAD8100A4A2CC /* Foundation.framework in Frameworks */,
+				ADEC9BAF166EAD8100A4A2CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEC9B9B166EAD8100A4A2CC = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BB0166EAD8100A4A2CC /* iOSMp3Recorder */,
+				ADEC9BA9166EAD8100A4A2CC /* Frameworks */,
+				ADEC9BA7166EAD8100A4A2CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEC9BA7166EAD8100A4A2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BA6166EAD8100A4A2CC /* iOSMp3Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEC9BA9166EAD8100A4A2CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BAA166EAD8100A4A2CC /* UIKit.framework */,
+				ADEC9BAC166EAD8100A4A2CC /* Foundation.framework */,
+				ADEC9BAE166EAD8100A4A2CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADEC9BB0166EAD8100A4A2CC /* iOSMp3Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BB9166EAD8100A4A2CC /* TXXAppDelegate.h */,
+				ADEC9BBA166EAD8100A4A2CC /* TXXAppDelegate.m */,
+				ADEC9BC2166EAD8100A4A2CC /* TXXViewController.h */,
+				ADEC9BC3166EAD8100A4A2CC /* TXXViewController.m */,
+				ADEC9BC5166EAD8100A4A2CC /* TXXViewController.xib */,
+				ADEC9BB1166EAD8100A4A2CC /* Supporting Files */,
+			);
+			path = iOSMp3Recorder;
+			sourceTree = "<group>";
+		};
+		ADEC9BB1166EAD8100A4A2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BB2166EAD8100A4A2CC /* iOSMp3Recorder-Info.plist */,
+				ADEC9BB3166EAD8100A4A2CC /* InfoPlist.strings */,
+				ADEC9BB6166EAD8100A4A2CC /* main.m */,
+				ADEC9BB8166EAD8100A4A2CC /* iOSMp3Recorder-Prefix.pch */,
+				ADEC9BBC166EAD8100A4A2CC /* Default.png */,
+				ADEC9BBE166EAD8100A4A2CC /* Default@2x.png */,
+				ADEC9BC0166EAD8100A4A2CC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEC9BA5166EAD8100A4A2CC /* iOSMp3Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEC9BCA166EAD8100A4A2CC /* Build configuration list for PBXNativeTarget "iOSMp3Recorder" */;
+			buildPhases = (
+				ADEC9BA2166EAD8100A4A2CC /* Sources */,
+				ADEC9BA3166EAD8100A4A2CC /* Frameworks */,
+				ADEC9BA4166EAD8100A4A2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMp3Recorder;
+			productName = iOSMp3Recorder;
+			productReference = ADEC9BA6166EAD8100A4A2CC /* iOSMp3Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEC9B9D166EAD8100A4A2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TXX;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "xiaoxuan Tang";
+			};
+			buildConfigurationList = ADEC9BA0166EAD8100A4A2CC /* Build configuration list for PBXProject "iOSMp3Recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADEC9B9B166EAD8100A4A2CC;
+			productRefGroup = ADEC9BA7166EAD8100A4A2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEC9BA5166EAD8100A4A2CC /* iOSMp3Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEC9BA4166EAD8100A4A2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEC9BB5166EAD8100A4A2CC /* InfoPlist.strings in Resources */,
+				ADEC9BBD166EAD8100A4A2CC /* Default.png in Resources */,
+				ADEC9BBF166EAD8100A4A2CC /* Default@2x.png in Resources */,
+				ADEC9BC1166EAD8100A4A2CC /* Default-568h@2x.png in Resources */,
+				ADEC9BC7166EAD8100A4A2CC /* TXXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEC9BA2166EAD8100A4A2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEC9BB7166EAD8100A4A2CC /* main.m in Sources */,
+				ADEC9BBB166EAD8100A4A2CC /* TXXAppDelegate.m in Sources */,
+				ADEC9BC4166EAD8100A4A2CC /* TXXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADEC9BB3166EAD8100A4A2CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEC9BB4166EAD8100A4A2CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADEC9BC5166EAD8100A4A2CC /* TXXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEC9BC6166EAD8100A4A2CC /* en */,
+			);
+			name = TXXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEC9BC8166EAD8100A4A2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADEC9BC9166EAD8100A4A2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEC9BCB166EAD8100A4A2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMp3Recorder/iOSMp3Recorder-Prefix.pch";
+				INFOPLIST_FILE = "iOSMp3Recorder/iOSMp3Recorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADEC9BCC166EAD8100A4A2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMp3Recorder/iOSMp3Recorder-Prefix.pch";
+				INFOPLIST_FILE = "iOSMp3Recorder/iOSMp3Recorder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEC9BA0166EAD8100A4A2CC /* Build configuration list for PBXProject "iOSMp3Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEC9BC8166EAD8100A4A2CC /* Debug */,
+				ADEC9BC9166EAD8100A4A2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEC9BCA166EAD8100A4A2CC /* Build configuration list for PBXNativeTarget "iOSMp3Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEC9BCB166EAD8100A4A2CC /* Debug */,
+				ADEC9BCC166EAD8100A4A2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEC9B9D166EAD8100A4A2CC /* Project object */;
+}
