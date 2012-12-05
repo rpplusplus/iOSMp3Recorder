@@ -18,6 +18,9 @@
 		ADEC9BC1166EAD8100A4A2CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BC0166EAD8100A4A2CC /* Default-568h@2x.png */; };
 		ADEC9BC4166EAD8100A4A2CC /* TXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC9BC3166EAD8100A4A2CC /* TXXViewController.m */; };
 		ADEC9BC7166EAD8100A4A2CC /* TXXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEC9BC5166EAD8100A4A2CC /* TXXViewController.xib */; };
+		ADEC9BD0166EAFC600A4A2CC /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BCF166EAFC600A4A2CC /* libmp3lame.a */; };
+		ADEC9BD3166EAFE500A4A2CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BD2166EAFE500A4A2CC /* AVFoundation.framework */; };
+		ADEC9BE3166F4FF800A4A2CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC9BE2166F4FF800A4A2CC /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		ADEC9BC2166EAD8100A4A2CC /* TXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXViewController.h; sourceTree = "<group>"; };
 		ADEC9BC3166EAD8100A4A2CC /* TXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXViewController.m; sourceTree = "<group>"; };
 		ADEC9BC6166EAD8100A4A2CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXXViewController.xib; sourceTree = "<group>"; };
+		ADEC9BCF166EAFC600A4A2CC /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		ADEC9BD1166EAFD100A4A2CC /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		ADEC9BD2166EAFE500A4A2CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ADEC9BE2166F4FF800A4A2CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +51,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEC9BE3166F4FF800A4A2CC /* AudioToolbox.framework in Frameworks */,
+				ADEC9BD3166EAFE500A4A2CC /* AVFoundation.framework in Frameworks */,
 				ADEC9BAB166EAD8100A4A2CC /* UIKit.framework in Frameworks */,
 				ADEC9BAD166EAD8100A4A2CC /* Foundation.framework in Frameworks */,
 				ADEC9BAF166EAD8100A4A2CC /* CoreGraphics.framework in Frameworks */,
+				ADEC9BD0166EAFC600A4A2CC /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,8 @@
 		ADEC9BA9166EAD8100A4A2CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADEC9BE2166F4FF800A4A2CC /* AudioToolbox.framework */,
+				ADEC9BD2166EAFE500A4A2CC /* AVFoundation.framework */,
 				ADEC9BAA166EAD8100A4A2CC /* UIKit.framework */,
 				ADEC9BAC166EAD8100A4A2CC /* Foundation.framework */,
 				ADEC9BAE166EAD8100A4A2CC /* CoreGraphics.framework */,
@@ -83,6 +95,7 @@
 		ADEC9BB0166EAD8100A4A2CC /* iOSMp3Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				ADEC9BCE166EAFB800A4A2CC /* lame */,
 				ADEC9BB9166EAD8100A4A2CC /* TXXAppDelegate.h */,
 				ADEC9BBA166EAD8100A4A2CC /* TXXAppDelegate.m */,
 				ADEC9BC2166EAD8100A4A2CC /* TXXViewController.h */,
@@ -105,6 +118,15 @@
 				ADEC9BC0166EAD8100A4A2CC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADEC9BCE166EAFB800A4A2CC /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC9BD1166EAFD100A4A2CC /* lame.h */,
+				ADEC9BCF166EAFC600A4A2CC /* libmp3lame.a */,
+			);
+			name = lame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +278,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMp3Recorder/iOSMp3Recorder-Prefix.pch";
 				INFOPLIST_FILE = "iOSMp3Recorder/iOSMp3Recorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOSMp3Recorder\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +294,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMp3Recorder/iOSMp3Recorder-Prefix.pch";
 				INFOPLIST_FILE = "iOSMp3Recorder/iOSMp3Recorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iOSMp3Recorder\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
