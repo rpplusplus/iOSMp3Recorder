@@ -80,7 +80,7 @@
 
 - (NSInteger) getFileSize:(NSString*) path
 {
-    NSFileManager * filemanager = [[NSFileManager alloc]init];
+    NSFileManager * filemanager = [[[NSFileManager alloc]init] autorelease];
     if([filemanager fileExistsAtPath:path]){
         NSDictionary * attributes = [filemanager attributesOfItemAtPath:path error:nil];
         NSNumber *theFileSize;
