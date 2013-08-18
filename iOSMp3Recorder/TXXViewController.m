@@ -412,7 +412,7 @@
         {
             
             NSError *playerError;
-            _mp3Player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:[NSHomeDirectory() stringByAppendingFormat:@"/Documents/%@", @"Mp3File.mp3"]]
+            _mp3Player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[NSHomeDirectory() stringByAppendingFormat:@"/Documents/%@", @"Mp3File.mp3"]]
                                                              error:&playerError];
             _mp3Player.meteringEnabled = YES;
             if (_mp3Player == nil)
