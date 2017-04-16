@@ -3,7 +3,7 @@ iOSMp3Recorder
 
 AVAudioRecorder + lame Mp3 Encoder
 
-##This demo shows:
+## This demo shows:
 
 1.Choose the audio format (MP4AAC, PCM, LoseLess …. )
 
@@ -11,7 +11,7 @@ AVAudioRecorder + lame Mp3 Encoder
 
 3.Convert the Linear PCM To Mp3
 
-##Reference:
+## Reference:
 
 http://www.cocoachina.com/bbs/read.php?tid=82730&keyword=lame
 
